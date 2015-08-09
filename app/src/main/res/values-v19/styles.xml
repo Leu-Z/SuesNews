@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--v19的标准主题把导航栏和状态栏都设为透明-->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+    <!--v19的透明主题把导航栏和状态栏都设为透明，并且主背景也为透明-->
+    <style name="AppTheme.Transparent" parent="AppTheme.Base">
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>
